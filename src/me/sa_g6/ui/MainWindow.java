@@ -73,7 +73,6 @@ public class MainWindow extends JFrame {
         fontMenu.add(new FontMenuItem(this,"underline", new Underline()));
         menuBar.add(fontMenu);
 
-
         Prov<JTextPane> prov = ()-> ((Tab)tabs.getSelectedComponent()).getEditor();
 
         JMenuItem menuItem ;
